@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200&family=Rubik:wght@300;400&family=Space+Mono:wght@700&display=swap');
+
+body
+{
+    background-color: black;
+    font-family: 'Oxanium', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#corner-img
+{
+    width: 128px;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    position: absolute;
+}
+
+#main-container
+{
+    list-style-type: none;
+}
+
+#intro-text
+{
+    font-size: 90px;
+    width: 600px;
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+
+#astronaut
+{
+    margin-left: 65%;
+    margin-bottom: -500px;
+    position: absolute;
+    bottom: 510px;
+    width: 337px;
+    height: 307px;
+    object-fit: cover;
+    transform: scale(2);
+}
+
+#more
+{
+    width: 381px;
+    margin-left: 135px;
+    transition: 0.2s;
+}
+
+#more:hover
+{
+    transform: scale(1.08);
+}
